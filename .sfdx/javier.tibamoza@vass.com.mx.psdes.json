@@ -1,0 +1,10 @@
+{
+    "orgId": "00D1X0000008gXvUAI",
+    "accessToken": "d602077cc2cd977ad60e35b6d70815ffb586a681612fec78877691770980c0b9e5b3bfd92a288716149b162e56998e7a42b13f4b296130527f495a1fbe28b430ab9732fda36ff8190185eea0f907057134a20d1b00010e0b95cb6c46ea6f7d3b76642dcb0fff31f9460b6c8d4bb2e8f1ee352e4107ce:5105543bace704f00224e262de33797b",
+    "refreshToken": "f381cda0ea6893c489cf1099f7414f10bfa537b8739950d2b04ef8873c86776975ae2beccfac06cb80e332f281feb449017abbdb8a8062cd8898824fdb661e332d3186e4412d22ed9b0eec4c3097832e367549713738ed2af9f4c190ce:93475023390ac10abae973aac516d779",
+    "instanceUrl": "https://apololatam--PDSDES.my.salesforce.com",
+    "loginUrl": "https://test.salesforce.com/",
+    "username": "javier.tibamoza@vass.com.mx.psdes",
+    "clientId": "PlatformCLI",
+    "isDevHub": false
+}

@@ -1,0 +1,245 @@
+{
+	"name": "sfdx-autoheader",
+	"displayName": "Salesforce Documenter",
+	"description": "Automated Code Documentation Generation for Salesforce",
+	"version": "0.7.0",
+	"publisher": "HugoOM",
+	"license": "MIT",
+	"badges": [
+		{
+			"url": "https://dev.azure.com/HugoOM/Salesforce%20Documenter/_apis/build/status/HugoOM.sfdx_autoheader?branchName=master",
+			"description": "Azure Pipelines Build Status for Master Branch (Current Release)"
+		}
+	],
+	"preview": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HugoOM/sfdx_autoheader"
+	},
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"apex",
+		"visualforce",
+		"Salesforce",
+		"File Header",
+		"Method Header",
+		"Code Comment",
+		"Documentation",
+		"Documenter"
+	],
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"theme": "dark",
+		"color": "#0C2D61"
+	},
+	"activationEvents": [
+		"onLanguage:apex",
+		"onLanguage:visualforce",
+		"onLanguage:javascript",
+		"onLanguage:html",
+		"onLanguage:xml"
+	],
+	"main": "./out/documenter.js",
+	"contributes": {
+		"menus": {
+			"editor/context": [
+				{
+					"command": "extension.insertApexMethodHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == apex"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == apex"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == visualforce"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == html"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == javascript"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == xml"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "extension.insertApexMethodHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == apex"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == apex"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == visualforce"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == html"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == javascript"
+				},
+				{
+					"command": "extension.insertFileHeader",
+					"group": "SFDoc",
+					"when": "editorLangId == xml"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "extension.insertApexMethodHeader",
+				"title": "Insert Apex Method Header",
+				"category": "SFDoc"
+			},
+			{
+				"command": "extension.insertFileHeader",
+				"title": "Insert File Header",
+				"category": "SFDoc"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Salesforce Documenter Configuration",
+			"properties": {
+				"SFDoc.username": {
+					"type": "string",
+					"default": "ChangeMeIn@UserSettingsUnder.SFDoc",
+					"description": "Sets the File & Method Header Username"
+				},
+				"SFDoc.FileHeaderProperties": {
+					"type": "array",
+					"default": [
+						{
+							"name": "description"
+						},
+						{
+							"name": "author",
+							"defaultValue": "$username"
+						},
+						{
+							"name": "group"
+						},
+						{
+							"name": "last modified on",
+							"defaultValue": "$date"
+						},
+						{
+							"name": "last modified by",
+							"defaultValue": "$username"
+						}
+					],
+					"description": "Array of properties for the generated File Headers in the format: {name: String, defaultValue?: string}"
+				},
+				"SFDoc.DateFormat": {
+					"type": "string",
+					"default": "MM-DD-YYYY",
+					"description": "The format in which SFDoc will output dates. Needs to include [DD, MM, YYYY] in the desired order and with the desired separators.",
+					"pattern": "(?=.*(M|MM))(?=.*(D|DD))(?=.*YYYY)",
+					"patternErrorMessage": "Date format should contain DD, MM, and YYYY"
+				},
+				"SFDoc.EnableForApex": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable On-Save File Headers on Apex Files"
+				},
+				"SFDoc.EnableForVisualforce": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable On-Save File Headers on Visualforce Pages"
+				},
+				"SFDoc.EnableForLightningMarkup": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable On-Save File Headers on Lightning Markup File (Aura & LWC)"
+				},
+				"SFDoc.EnableForLightningJavascript": {
+					"type": "boolean",
+					"default": false,
+					"description": "Enable On-Save File Headers on Lightning Javascript Files (Aura & LWC)"
+				},
+				"SFDoc.IncludParameterTypeInMethodHeader": {
+					"type": "boolean",
+					"default": false,
+					"description": "Include the type of the parameter along with it's name when generating a method header"
+				}
+			}
+		},
+		"languages": [
+			{
+				"id": "apex",
+				"filenames": [
+					"testFile_SFDXAutoheader.apex"
+				]
+			},
+			{
+				"id": "visualforce",
+				"filenames": [
+					"testFile_SFDXAutoheader.page"
+				]
+			},
+			{
+				"id": "html",
+				"filenames": [
+					"testFile_SFDXAutoheader.cmp"
+				]
+			},
+			{
+				"id": "javascript",
+				"filenames": [
+					"testFile_SFDXAutoheaderController.js",
+					"testFile_SFDXAutoheader.js"
+				]
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"dev": "tsc -p ./ -w",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.2.11",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^14.0.14",
+		"chai": "^4.2.0",
+		"eslint": "^7.3.1",
+		"tslint": "^6.1.2",
+		"typescript": "^3.9.6",
+		"vscode": "^1.1.37"
+	},
+	"__metadata": {
+		"id": "7e7bddef-b439-401a-94e7-4c75f9744600",
+		"publisherId": "337525fc-7e59-4739-96e2-38d3e52d3619",
+		"publisherDisplayName": "HugoOM"
+	}
+}

@@ -1,0 +1,17 @@
+<conversion>
+  <applied-converters>
+    <converter id="IlluminatedCloud" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\tibam\IdeaProjects\PATTERN\.idea\workspace.xml" timestamp="1595965286696" />
+    <file path="C:\Users\tibam\IdeaProjects\PATTERN\.idea\illuminatedCloud.xml" timestamp="1582423060274" />
+    <file path="C:\Users\tibam\IdeaProjects\PATTERN\.idea\misc.xml" timestamp="1582422981749" />
+    <file path="C:\Users\tibam\IdeaProjects\PATTERN\.idea\modules.xml" timestamp="1582422981771" />
+    <file path="C:\Users\tibam\IdeaProjects\PATTERN\PATTERN.iml" timestamp="1582423060197" />
+  </project-files>
+</conversion>

@@ -1,0 +1,77 @@
+{
+	"name": "bitbucket-pull-requests",
+	"displayName": "Bitbucket Pull Requests",
+	"description": "Start a bitbucket pull request from VS code",
+	"version": "0.3.10",
+	"publisher": "RamiroBerrelleza",
+	"icon": "assets/bitbucket.jpg",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"bugs": {
+		"url": "https://bitbucket.org/rberrelleza/bitbucket-pull-requests/issues"
+	},
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/rberrelleza/bitbucket-pull-requests"
+	},
+	"categories": [
+		"SCM Providers"
+	],
+	"activationEvents": [
+		"onCommand:extension.createPullRequest",
+		"onCommand:extension.setBitbucketURL"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Bitbucket pull requests extension configuration",
+			"properties": {
+				"bitbucket-pull-requests.serverURL": {
+					"type": "string",
+					"description": "Bitbucket server URL",
+					"default": "https://bitbucket.org",
+					"scope": "resource"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.createPullRequest",
+				"title": "Create pull request from current branch",
+				"category": "Bitbucket"
+			},
+			{
+				"command": "extension.setBitbucketURL",
+				"title": "Set the Bitbucket Server URL",
+				"category": "Bitbucket"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.54",
+		"tslint": "^5.20.0",
+		"typescript": "^2.6.1",
+		"vsce": "^1.66.0",
+		"vscode": "^1.1.36"
+	},
+	"dependencies": {
+		"execa": "^1.0.0",
+		"git-url-parse": "^11.1.2"
+	},
+	"__metadata": {
+		"id": "86968fd3-6e16-461b-9ebf-6103ed8debad",
+		"publisherId": "df77f8ee-dd49-4d1d-ada8-85114b1ff288",
+		"publisherDisplayName": "Ramiro Berrelleza"
+	}
+}

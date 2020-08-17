@@ -1,0 +1,337 @@
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":18848,"log":"AuthWebLoginCommand","level":50,"msg":"[ 'ERROR running force:auth:web:login: ',\n  'This org appears to have a problem with its OAuth configuration. Reason: invalid_grant - invalid authorization code \\nusername: <Not Specified>, \\nclientId: PlatformCLI, \\nloginUrl: https://login.salesforce.com, \\nprivateKey: <Not Specified>',\n  '\\n\\nTry this:',\n  '\\nVerify the OAuth configuration for this org. For JWT:\\r\\nEnsure the private key is correct and the cert associated with the connected app has not expired.\\r\\nEnsure the following OAuth scopes are configured [api, refresh_token, offline_access].\\r\\nEnsure the username is assigned to a profile or perm set associated with the connected app.\\r\\nEnsure the connected app is configured to pre-authorize admins.' ]","time":"2020-02-04T13:52:10.916Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":8740,"log":"AuthWebLoginCommand","level":50,"msg":"[ 'ERROR running force:auth:web:login: ',\n  'This org appears to have a problem with its OAuth configuration. Reason: invalid_grant - invalid authorization code \\nusername: <Not Specified>, \\nclientId: PlatformCLI, \\nloginUrl: https://login.salesforce.com, \\nprivateKey: <Not Specified>',\n  '\\n\\nTry this:',\n  '\\nVerify the OAuth configuration for this org. For JWT:\\r\\nEnsure the private key is correct and the cert associated with the connected app has not expired.\\r\\nEnsure the following OAuth scopes are configured [api, refresh_token, offline_access].\\r\\nEnsure the username is assigned to a profile or perm set associated with the connected app.\\r\\nEnsure the connected app is configured to pre-authorize admins.' ]","time":"2020-02-04T13:54:47.890Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":17404,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-03-27T01:42:55.017Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":17404,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-03-27T01:42:55.022Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":17404,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-03-27T01:42:55.022Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":17404,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-03-27T01:42:55.022Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.370Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.385Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.374Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.375Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.376Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.386Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.387Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.387Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.388Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.388Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.389Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.389Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.390Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.396Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.397Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.398Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.398Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.399Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.399Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.400Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.400Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.401Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.402Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.402Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.403Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.403Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.404Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.404Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.405Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.405Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.405Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.406Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.406Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.407Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.407Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.408Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.408Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.409Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.409Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.409Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.410Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.410Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.410Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.411Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.411Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.411Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.412Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.412Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.412Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.413Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.413Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.413Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.413Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.414Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.414Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.414Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.419Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.419Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.419Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.420Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.420Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.421Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.421Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.421Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.422Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.422Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.422Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.422Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.423Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.423Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.428Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.428Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.429Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.429Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.429Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.429Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.430Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.430Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.430Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.430Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.431Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.431Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.431Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.432Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.432Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.432Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.433Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.434Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.434Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.434Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.435Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.435Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.435Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.435Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.435Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.436Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.436Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.436Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.437Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.437Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.437Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.439Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.439Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.439Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.440Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.440Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.441Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.441Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.442Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.442Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.442Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.442Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.443Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.443Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.443Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.443Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.444Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.444Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.444Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.445Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.445Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.445Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.445Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.446Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.446Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.446Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.446Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.446Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.447Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.447Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.447Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.449Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.450Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.450Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.450Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.450Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.451Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.451Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.451Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.451Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.452Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.452Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.452Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.452Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.453Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.453Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.455Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.456Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.456Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.456Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.457Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.457Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.457Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.457Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.457Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.458Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.458Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.458Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.458Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.459Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.459Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.460Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.460Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.462Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.462Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.462Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.464Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.464Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.464Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.465Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.465Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.465Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.466Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.466Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.466Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.466Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.466Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.467Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.467Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.467Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.467Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.468Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.469Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.469Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.472Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.472Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.472Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.472Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.473Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.473Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.473Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.474Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.474Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.474Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.475Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.475Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.475Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.476Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.476Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.476Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.477Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.477Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.478Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.478Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.478Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.478Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.479Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.479Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.479Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.479Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.479Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.480Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.480Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.480Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.480Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.481Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.481Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.481Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.481Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.481Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.482Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"Org","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.482Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.482Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.482Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.482Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5052,"log":"connection","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-01T01:34:29.483Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:03.724Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:03.725Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:03.725Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:03.725Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.130Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.130Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.130Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.131Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.463Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.714Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"AuthInfo","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.714Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"crypto","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.714Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11884,"log":"keyChain","level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-04-15T04:00:04.714Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":20616,"log":"connection","level":50,"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"85.222.153.31","port":443,"msg":"","time":"2020-04-18T16:41:16.644Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":20616,"log":"connection","level":40,"msg":"[ 'Failed to set the latest API version:',\n  { errno: 'ETIMEDOUT',\n    code: 'ETIMEDOUT',\n    syscall: 'connect',\n    address: '85.222.153.31',\n    port: 443 } ]","time":"2020-04-18T16:41:16.648Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":8708,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-22T19:44:39.634Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":20500,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-22T19:49:02.530Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":7208,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T00:01:02.778Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":23292,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T01:38:08.448Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":31076,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T01:48:00.907Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":29344,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T01:52:15.833Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":22772,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T01:55:06.761Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":8552,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T02:20:12.039Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":21316,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-23T02:25:17.898Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":21384,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-07-24T23:06:02.436Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":35528,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T13:29:58.572Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":25736,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T13:30:53.771Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":34004,"log":"SfdxProjectJson","level":40,"msg":"The config file: C:\\Users\\tibam\\.sfdx\\sfdx-project.json is not schema valid\nDue to: Validation errors:\nshould have required property 'packageDirectories'","time":"2020-08-03T14:07:29.009Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":34004,"log":"SfdxProjectJson","level":40,"msg":"The config file: C:\\Users\\tibam\\.sfdx\\sfdx-project.json is not schema valid\nDue to: Validation errors:\nshould have required property 'packageDirectories'","time":"2020-08-03T14:07:29.601Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":34004,"log":"SourceRetrieveCommand","level":50,"msg":"[\n  'ERROR running force:source:retrieve: ',\n  \"EMFILE: too many open files, open 'c:\\\\Users\\\\tibam\\\\OneDrive\\\\Documentos\\\\Workspace\\\\NATURGY\\\\NATURGY-PDS-DES\\\\NATURGY-PDS-DES\\\\force-app\\\\main\\\\default\\\\classes\\\\AP_Historico_de_Precios_Util_Test.cls'\"\n]","time":"2020-08-03T14:07:29.713Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":32484,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T14:28:25.210Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":17908,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T14:33:09.441Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":28708,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T21:13:08.071Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":36344,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T21:30:51.485Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":27792,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T23:15:16.995Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16896,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T23:19:32.192Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":35636,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T23:46:09.091Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":33708,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-03T23:48:54.215Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":14600,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T00:06:08.266Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":6752,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T00:19:36.310Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":34528,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T02:29:03.873Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":31384,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T02:32:38.590Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":828,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T03:57:54.324Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16592,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T03:58:02.616Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":32876,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T13:27:03.461Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":18152,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T15:21:03.095Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":26460,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T15:23:23.160Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":25520,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T15:25:30.202Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":28780,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T16:17:31.701Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":24800,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T16:31:13.536Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":6096,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T16:38:39.094Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":19680,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T16:57:26.726Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":10016,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T18:46:48.512Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":31844,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T18:47:07.267Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":7516,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T19:05:44.998Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":14572,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T19:09:50.560Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":9300,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-04T19:19:56.040Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":4884,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:09:05.851Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":13036,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:09:52.066Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16656,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:34:27.924Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":31724,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:34:53.437Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":6848,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:36:14.657Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":36020,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T13:36:40.134Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":22124,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-08-05T15:12:09.555Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":9996,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T16:41:11.330Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":11940,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T16:42:31.668Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":4832,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T16:42:31.679Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5160,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T20:49:48.164Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":35944,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T21:13:24.820Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":35416,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T21:53:52.203Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":23068,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T23:18:47.922Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":36124,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T23:27:46.927Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":14968,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T23:32:55.856Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":10124,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T23:43:40.248Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":19540,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-05T23:44:49.590Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":10880,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-06T00:31:36.623Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":12868,"level":60,"errno":"EPIPE","code":"EPIPE","syscall":"write","msg":"","time":"2020-08-06T12:59:58.985Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":28972,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-06T14:50:31.873Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":10260,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-12T00:14:47.577Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":8900,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-13T19:03:05.852Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":10248,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-13T19:04:10.154Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":9208,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-13T19:04:10.259Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":22180,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-13T21:01:16.305Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5348,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-13T22:12:07.985Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":8088,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-14T01:10:58.168Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":12612,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-14T02:59:50.428Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":34012,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-14T03:00:54.890Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":5488,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-14T14:43:47.086Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":19704,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-17T13:52:28.958Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16904,"log":"SfdxProjectJson","level":40,"msg":"The config file: C:\\Users\\tibam\\.sfdx\\sfdx-project.json is not schema valid\nDue to: Validation errors:\nshould have required property 'packageDirectories'","time":"2020-08-17T14:22:56.732Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16904,"log":"SfdxProjectJson","level":40,"msg":"The config file: C:\\Users\\tibam\\.sfdx\\sfdx-project.json is not schema valid\nDue to: Validation errors:\nshould have required property 'packageDirectories'","time":"2020-08-17T14:22:56.777Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":16904,"log":"SourceRetrieveCommand","level":50,"msg":"[\n  'ERROR running force:source:retrieve: ',\n  \"EMFILE: too many open files, open 'c:\\\\Users\\\\tibam\\\\OneDrive\\\\Documentos\\\\Workspace\\\\NATURGY\\\\NATURGY-PDS-UAT\\\\NAT-PDS_UAT\\\\force-app\\\\main\\\\default\\\\classes\\\\AP_HTTPCalloutResult.cls-meta.xml'\"\n]","time":"2020-08-17T14:22:56.819Z","v":0}
+{"name":"sfdx","hostname":"LAPTOP-CUGQOD3S","pid":23372,"log":"TelemetryReporter","level":40,"msg":"Connection to https://dc.services.visualstudio.com timed out after 1000 ms","time":"2020-08-17T14:23:14.084Z","v":0}

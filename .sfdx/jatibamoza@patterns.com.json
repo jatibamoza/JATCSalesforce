@@ -1,0 +1,9 @@
+{
+    "orgId": "00D3k000000umRmEAI",
+    "accessToken": "e83a9acff8ea0700923ea16d459900c75f4cb2bfaab9234a630b613759b99d70f4a38fb1180ea3ca4593ec0a3ffc11b79d3f81836342fa12bbd5be0e2aebbe4114242c5e79be170d76b6d10310d91c97bb1b89da9ee448eef33bc3d140726d08e23eae8ae101af3e1285ccb43d285f855de946f7d483:b1743aaa748aa0200f48a5731ea63b4f",
+    "refreshToken": "908acc3dc22ffe8a330a587de56966afc33176f09c5b436a73a999160667355e39bbf6915e2c600adc6183850228464feb569cc3fd5097f1c934d1cfc0a9c49d6112fcc14ee659a36f9f5b7f7a315a175f27b51f154ccf4089a60116d5:ed2103523c192ffc2e5b11fd177ab084",
+    "instanceUrl": "https://pattern-dev-dev-ed.my.salesforce.com",
+    "loginUrl": "https://login.salesforce.com/",
+    "username": "jatibamoza@patterns.com",
+    "clientId": "PlatformCLI"
+}

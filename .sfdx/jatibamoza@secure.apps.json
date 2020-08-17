@@ -1,0 +1,9 @@
+{
+    "orgId": "00D4T000000FQNVUA4",
+    "accessToken": "a36e34df16507e0b11401becda84767e464bcc47ace4dec9ab6de9e35622d48a1f0f10a96c4b5cab10c69e755deb3de7d4ae122e24abdb27b6bcb980722ea35b59ef5d5e25fd4fa12ec705a00b0ea3236f182b312627ce6633aa6c3e85fe2898f3259e37eedc44e771cb6c6dd2123ff50308259430b8:f0f7da3998f4a877e0cda87e01836fe4",
+    "refreshToken": "538e91afd7ef726929a943c5ef53cfa649382c46787999f26d3241195e1066de985975090974a484cea5e832bec224e81eeceed49cfc78b959fb176dd73101c369543766ac183c8b454618165e6ee63a962bc067fcd61aa3b622ee0b9c:a0783f784599381f726bff2cb251c091",
+    "instanceUrl": "https://incredible-cloudy-293094-dev-ed.my.salesforce.com",
+    "loginUrl": "https://login.salesforce.com/",
+    "username": "jatibamoza@secure.apps",
+    "clientId": "PlatformCLI"
+}

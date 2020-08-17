@@ -1,0 +1,10 @@
+{
+    "username": "tdespliegue@gnfapolo.trial.pdsuat",
+    "orgId": "00D3N0000008au1UAA",
+    "accessToken": "f7753d35a0502e7899c7d3d84a76125b8654414edb2d5e4af5f5807a553289fd2eccf2bad52ad1c3522669c83f21fc516e9c71beecd6a627572c40570f2cb68c2190de7af4f663898816b08ace112865cf0e27b293368032888749014f6345640c5b0604ec244a4b439418d4c871fe8baba7dfde11de:3b6d2f6e830ada9c56868f7a6dca12de",
+    "refreshToken": "a32fb3e0956e41c3ee986c3468e65d049bf491b2bee362789e63cedafde19510551f723dd1041e0900a140481e20a15ff9d0b769cf6860ebb97a48b07d0c9844bffd9f5d74a18b67bd1ed74d2d41688f812a765cb3428a0329b3662207:bbec0714edac073c162667b3ecc2e3fa",
+    "instanceUrl": "https://apololatam--pdsuat.my.salesforce.com",
+    "loginUrl": "https://test.salesforce.com/",
+    "clientId": "PlatformCLI",
+    "isDevHub": false
+}

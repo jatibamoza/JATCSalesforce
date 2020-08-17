@@ -1,0 +1,9 @@
+{
+    "MDAPI_RETRIEVE": {
+        "jobid": "09S3N000000kup2UAA",
+        "retrievetargetdir": "C:\\Users\\tibam\\AppData\\Local\\Temp\\sdx_sourceRetrieve_1597674443371"
+    },
+    "SOURCE_DEPLOY": {
+        "jobid": "0Af1X00000vRgghSAC"
+    }
+}

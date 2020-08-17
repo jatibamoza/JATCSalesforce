@@ -1,0 +1,21 @@
+<application>
+  <component name="IlluminatedCloudSettings">
+    <option name="connectionConfigs">
+      <list>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="PATRONES" />
+          <option name="connectionType" value="MDAPI" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="PATTERN" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="username" value="jatibamoza@patterns.com" />
+        </IlluminatedCloudConnectionConfig>
+      </list>
+    </option>
+    <option name="promptOverrideSaveAllAction" value="false" />
+    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedTabIndex" value="1" />
+  </component>
+</application>

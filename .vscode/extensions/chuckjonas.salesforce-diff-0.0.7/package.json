@@ -1,0 +1,79 @@
+{
+	"name": "salesforce-diff",
+	"displayName": "Salesforce Diff",
+	"description": "Diff local files with what is compiled on salesforce",
+	"version": "0.0.7",
+	"publisher": "chuckjonas",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"icon": "images/diff-icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ChuckJonas/vscode-salesforce-diff"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.diffDefaultOrg",
+		"onCommand:extension.diffSelectOrg"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.diffDefaultOrg",
+				"title": "SF DIFF: Current Org",
+				"icon": {
+					"light": "./images/diff-black.png",
+					"dark": "./images/diff-white.png"
+				}
+			},
+			{
+				"command": "extension.diffSelectOrg",
+				"title": "SF DIFF: Select an Org",
+				"icon": {
+					"light": "./images/diff-select-black.png",
+					"dark": "./images/diff-select-white.png"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == apex || resourceFilename =~ /-meta.xml/",
+					"command": "extension.diffDefaultOrg",
+					"alt": "extension.diffSelectOrg",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^12.7.2",
+		"mocha": "^6.2.0",
+		"typescript": "^3.3.1",
+		"vscode": "^1.0.0"
+	},
+	"dependencies": {
+		"@oclif/command": "1",
+		"@oclif/config": "1",
+		"@oclif/errors": "1",
+		"@salesforce/command": "^2.1.0",
+		"@salesforce/core": "^2.1.0",
+		"@types/rimraf": "^2.0.2",
+		"rimraf": "^3.0.0"
+	},
+	"__metadata": {
+		"id": "cf71e995-1f06-4f67-aa9e-9a58c85d67e1",
+		"publisherId": "3509da0d-e235-4469-977f-e318a7efc680",
+		"publisherDisplayName": "Charlie Jonas"
+	}
+}
